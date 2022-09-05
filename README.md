@@ -24,6 +24,7 @@ A simple dashboard to display **unresolved** and **resolved** bugs in a tabular 
 
 ## Create Bug Report Page
 This page is used to create a Bug report by simply mentioning a small title and then giving a brief description of the bug. Newly reported bugs are tagged as **unresolved** by default.
+
 <img src="/images/bug-report-page.png" width="720px">
 
 ## Resolve Bug Report Page
