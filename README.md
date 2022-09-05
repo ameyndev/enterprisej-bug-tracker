@@ -14,16 +14,20 @@ All the reported and resolved bugs are tracked along with the reporters and reso
 * Is very simple and has easy to understand UI.
 
 ## Login & Registration Pages
+Simple login page to log in to a users account and register page to create a register new user into the database.
 <img src="/images/login-page-track.png" width="720px">
 <img src="/images/register-new-user.png" width="720px">
 
 ## User Dashboard
+A simple dashboard to display **unresolved** and **resolved** bugs in a tabular format (sequentially). It consists of navigation to pages where you can __report__ new bug reports and __resolve__ existing bug reports.
 <img src="/images/new-dashboard.png" width="720px">
 
 ## Create Bug Report Page
+This page is used to create a Bug report by simply mentioning a small title and then giving a brief description of the bug. Newly reported bugs are tagged as **unresolved** by default.
 <img src="/images/bug-report-page.png" width="720px">
 
 ## Resolve Bug Report Page
+On this page, all the __unresolved__ bugs will show up in a list and users can check the boxes of the required Bug Reports and submit them to be resolved by clicking the button. The **resolved** bugs will be seperated from **unresolved** bugs.
 <img src="/images/resolve-bugs-page.png" width="720px">
 
-.
+---
