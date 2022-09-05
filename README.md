@@ -12,13 +12,14 @@ All the reported and resolved bugs are tracked along with the reporters and reso
 * Is very simple and has easy to understand UI.
 
 ## Login & Registration Pages
-
+<img src="/images/login-page-track.png" width="720px">
+<img src="/images/register-new-user.png" width="720px">
 
 ## User Dashboard
-
+<img src="/images/dashboard-with-bugs.png" width="720px">
 
 ## Create Bug Report Page
-
+<img src="/images/bug-report-page.png" width="720px">
 
 ## Resolve Bug Report Page
 
