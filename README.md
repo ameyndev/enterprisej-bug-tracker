@@ -22,6 +22,6 @@ All the reported and resolved bugs are tracked along with the reporters and reso
 <img src="/images/bug-report-page.png" width="720px">
 
 ## Resolve Bug Report Page
-<img src="/images/resolve-bug-page.png" width="720px">
+<img src="/images/resolve-bugs-page.png" width="720px">
 
 .
