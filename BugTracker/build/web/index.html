@@ -1,0 +1,45 @@
+
+<html>
+    <head>
+        <title>Registration Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            form {border: 2px solid #f1f1f1;}
+            input[type = password] { 
+                width: 100%; padding: 12px 20px; margin: 6px 0;
+                display: inline-block; border: 1px solid #ccc; box-sizing: border-box; }
+            input[type = text] {
+                width: 100%; padding: 12px 20px; margin: 6px 0;
+                display: inline-block; border: 1px solid #ccc; box-sizing: border-box; }
+            button {
+                background-color: #FFFFFF; color: #04AA6D; border-radius: 16px;
+                padding: 10px 16px; margin: 6px 0; border-width: 2px; border-color: #04AA6D; cursor: pointer; width: 100%; }
+            button:hover {opacity: 0.8;}
+            input[type = submit] {
+                background-color: #04AA6D; color: white; border-radius: 16px;
+                padding: 10px 16px; margin: 6px 0; border: none; cursor: pointer; width: 100%; }
+            input[type = submit]:hover {opacity: 0.8;}
+            .container {padding: 2px; position: absolute; top: 30%; left: 39%;}
+            .heading {padding: 20px;}
+        </style>
+    </head>
+    <body>
+            <form action="RegisterNewUser.jsp" method="post">
+                <div class="heading">
+                    <header>
+                        <h1 align="center">Register new user.</h1><br>
+                    </header>
+                </div>
+                <div class="container">
+                    Enter username: <input type="text" name="username" placeholder="Enter username" required><br><br>
+                    Enter password: <input type="password" name="password" placeholder="Enter password" required><br><br>
+                    Re-enter password: <input type="password" name="repassword" placeholder="Re-enter password" required><br><br>
+                    <input type="submit" name="register" value="Register"><br>
+                    <p align="center">or</p>
+                    <button type="button" onclick="location.href='LoginPage.html';">LOGIN</button>
+                </div>
+            </form>
+        
+    </body>
+</html>
